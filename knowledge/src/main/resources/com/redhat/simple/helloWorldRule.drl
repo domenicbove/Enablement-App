@@ -1,0 +1,26 @@
+package com.redhat.simple;
+
+import com.redhat.Greeting;
+
+rule "Hello World"
+ruleflow-group "greeting"
+
+	when
+		$greeting : Greeting(greeting == null)
+	
+	then
+		System.out.println("Ran Hello world rule1");
+		modify ( $greeting ) { setGreeting("Hello, World2") };
+		
+end
+
+rule "Hello World number2"
+ruleflow-group "greeting"
+
+	when
+		$greeting : Greeting(greeting == "Hello, World2")
+	
+	then
+		System.out.println("Ran Hello world rule");
+		modify ( $greeting ) { setGreeting("Hello, World!") };
+end
