@@ -13,6 +13,7 @@
 	<modules>
 		<module>knowledge</module>
 		<module>ba-enablment-app</module>
+        <module>domain</module>
 	</modules>
 
 	<distributionManagement>

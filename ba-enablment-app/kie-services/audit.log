@@ -5,7 +5,7 @@
     <org.drools.core.audit.event.ObjectLogEvent>
       <type>1</type>
       <factId>1</factId>
-      <objectToString>com.redhat.Greeting@1d2345d6</objectToString>
+      <objectToString>com.redhat.Greeting@7148b7a3</objectToString>
     </org.drools.core.audit.event.ObjectLogEvent>
     <org.drools.core.audit.event.RuleFlowLogEvent>
       <type>8</type>
@@ -87,7 +87,7 @@
       <type>4</type>
       <activationId>Hello World [1]</activationId>
       <rule>Hello World</rule>
-      <declarations>$greeting=com.redhat.Greeting@1d2345d6(1)</declarations>
+      <declarations>$greeting=com.redhat.Greeting@7148b7a3(1)</declarations>
       <ruleFlowGroup>greeting</ruleFlowGroup>
       <factHandleIds>1</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
@@ -95,20 +95,49 @@
       <type>6</type>
       <activationId>Hello World [1]</activationId>
       <rule>Hello World</rule>
-      <declarations>$greeting=com.redhat.Greeting@1d2345d6(1)</declarations>
+      <declarations>$greeting=com.redhat.Greeting@7148b7a3(1)</declarations>
       <ruleFlowGroup>greeting</ruleFlowGroup>
       <factHandleIds>1</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ObjectLogEvent>
       <type>2</type>
       <factId>1</factId>
-      <objectToString>com.redhat.Greeting@1d2345d6</objectToString>
+      <objectToString>com.redhat.Greeting@7148b7a3</objectToString>
     </org.drools.core.audit.event.ObjectLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>7</type>
       <activationId>Hello World [1]</activationId>
       <rule>Hello World</rule>
-      <declarations>$greeting=com.redhat.Greeting@1d2345d6(1)</declarations>
+      <declarations>$greeting=com.redhat.Greeting@7148b7a3(1)</declarations>
+      <ruleFlowGroup>greeting</ruleFlowGroup>
+      <factHandleIds>1</factHandleIds>
+    </org.drools.core.audit.event.ActivationLogEvent>
+    <org.drools.core.audit.event.ActivationLogEvent>
+      <type>4</type>
+      <activationId>Hello World number2 [1]</activationId>
+      <rule>Hello World number2</rule>
+      <declarations>$greeting=com.redhat.Greeting@7148b7a3(1)</declarations>
+      <ruleFlowGroup>greeting</ruleFlowGroup>
+      <factHandleIds>1</factHandleIds>
+    </org.drools.core.audit.event.ActivationLogEvent>
+    <org.drools.core.audit.event.ActivationLogEvent>
+      <type>6</type>
+      <activationId>Hello World number2 [1]</activationId>
+      <rule>Hello World number2</rule>
+      <declarations>$greeting=com.redhat.Greeting@7148b7a3(1)</declarations>
+      <ruleFlowGroup>greeting</ruleFlowGroup>
+      <factHandleIds>1</factHandleIds>
+    </org.drools.core.audit.event.ActivationLogEvent>
+    <org.drools.core.audit.event.ObjectLogEvent>
+      <type>2</type>
+      <factId>1</factId>
+      <objectToString>com.redhat.Greeting@7148b7a3</objectToString>
+    </org.drools.core.audit.event.ObjectLogEvent>
+    <org.drools.core.audit.event.ActivationLogEvent>
+      <type>7</type>
+      <activationId>Hello World number2 [1]</activationId>
+      <rule>Hello World number2</rule>
+      <declarations>$greeting=com.redhat.Greeting@7148b7a3(1)</declarations>
       <ruleFlowGroup>greeting</ruleFlowGroup>
       <factHandleIds>1</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
