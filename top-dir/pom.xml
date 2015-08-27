@@ -5,14 +5,14 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.redhat</groupId>
-	<artifactId>top-aggregator</artifactId>
+	<artifactId>top-dir</artifactId>
 	<version>1.0-SNAPSHOT</version>
-	<name>top-aggregator</name>
+	<name>top-dir</name>
 	<packaging>pom</packaging>
 
 	<modules>
-		<module>top-dir</module>
-		<module>ba-enablment-app</module>
+		<module>knowledge</module>
+        <module>domain</module>
 	</modules>
 
 	<distributionManagement>
